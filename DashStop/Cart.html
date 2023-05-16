@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Your Cart - DashStop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+        <div class="navbar">
+          <div class="logo">
+             <img src="images/DashStopPG.png" width="125px">
+          </div>
+            <nav>
+             <ul id="MenuItems">
+                <li><a href="">Home</a> </li>
+                <li><a href="">Products</a> </li>
+                <li><a href="">About</a> </li>
+                <li><a href="">Contact</a> </li>
+                <li><a href="">Account</a> </li>
+             </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+<!---------- Shopping Cart Detail ---------->
+        <div class="small-container cart-page">
+            
+            <table>
+                <tr>
+                    <th>Products</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/Off-White%20BLVCK%20Streets2.png">
+                            <div>
+                                <p>Off-White BLVCK STREETS</p>
+                                <small>Price: $480.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$480.00</td>
+                </tr>
+                 <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/Book-Stand2.jpg">
+                            <div>
+                                <p>Book Stand</p>
+                                <small>Price: $25.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$480.00</td>
+                </tr>
+                 <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/Vintage-Jordan2.png">
+                            <div>
+                                <p>Vintage Jordan Jersey</p>
+                                <small>Price: $100.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$480.00</td>
+                </tr>
+                 <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/Book-3.jpg">
+                            <div>
+                                <p>No Longer Human</p>
+                                <small>Price: $5.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$480.00</td>
+                </tr>
+                 <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/AAPE2.jpg">
+                            <div>
+                                <p>AAPE Varsity Jacket</p>
+                                <small>Price: $280.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$480.00</td>
+                </tr>
+            </table>
+            
+            <div class="total-price">
+                
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$890.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$900.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+<!-------- footer ------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our App now!</h3>
+                        <p>Available now for both Android and Apple users!</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/DashStop5.png">
+                        <p>DashStop's purpose is to make the world a greener and safer place for everyone.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Discount</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Support us</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Our Journey</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="box-container">
+            <form>
+                <h1>Give Your Honest Feedback</h1>
+                <div class="ID">
+                    <input type="text" placeholder="Full Name">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+                <div class="ID">
+                    <input type="email" placeholder="Email Address">
+                    <ion-icon name="mail"></ion-icon>
+                </div>
+                 <textarea cols="15" rows="5" placeholder="Enter Your Opinions Here."></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+               <p class="copyright">All Copyrights Reserved to DashStop 2022</p>
+                <p class="copyright">Credits to: Web Dev Simplified</p>
+               <p class="copyright">Credits to: Easy Tutorials</p>
+            </div>
+        </div>
+        
+
+    </body>
+</html>
